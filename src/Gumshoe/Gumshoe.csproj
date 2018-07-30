@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Pim Brouwers</Authors>
+    <Company>Pim Brouwers</Company>
+    <Description>A .NET Standard compliant middleware to handle adding/removing HTTP security response headers.</Description>
+    <Copyright>2018</Copyright>
+    <PackageLicenseUrl>https://github.com/pimbrouwers/gumshoe/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pimbrouwers/gumshoe</PackageProjectUrl>
+    <PackageIconUrl>http://www.pimbrouwers.com/cinch.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/pimbrouwers/gumshoe</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>headers response-headers http security-policy</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
